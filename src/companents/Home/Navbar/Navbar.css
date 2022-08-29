@@ -80,3 +80,17 @@
 .search-item {
   border-bottom: 2px solid #b3bac2;
 }
+
+.with {
+  margin-right: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.img-my {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  object-fit: cover;
+}

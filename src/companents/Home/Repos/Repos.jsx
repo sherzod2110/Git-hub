@@ -133,6 +133,22 @@ const Repos = () => {
                     </ul>
                   </div>
                 </div>
+                <div className="item-bottom d-flex align-items-center justify-content-start mt-3 gap-3">
+                  <p
+                    className={`repo-language m-0 ${
+                      item.language === "JavaScript"
+                        ? "yellow"
+                        : item.language === "HTML"
+                        ? "red"
+                        : item.language === "CSS"
+                        ? "purple"
+                        : ""
+                    }`}
+                  >
+                    {item.language}
+                  </p>
+                  <p className="updated m-0">{`Updated at ${item.updated_at.split("T")[0]}`}</p>
+                </div>
               </li>
             );
           })}

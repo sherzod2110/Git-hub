@@ -31,7 +31,7 @@
 
 .updated {
   font-size: 14px;
-  color: #545454;
+  color: #8b949e;
 }
 
 .form-select {
@@ -70,4 +70,8 @@
   .search-repo {
     min-width: 100%;
   }
+}
+
+.repo-language {
+  color: #8b949e;
 }

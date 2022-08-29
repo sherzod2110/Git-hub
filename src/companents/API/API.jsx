@@ -1,6 +1,4 @@
-
-
-// FULL API 
+// FULL API
 
 import axios from "axios";
 

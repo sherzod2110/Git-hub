@@ -66,6 +66,9 @@ function App() {
   };
 
   const { pathname } = useLocation();
+
+
+  
   const [auth, setAuth] = useState(false);
   const navigate = useNavigate();
   const user2 = {

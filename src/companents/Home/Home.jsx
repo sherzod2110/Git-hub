@@ -2,6 +2,7 @@
 import Navbar from "./Navbar/Navbar";
 import Followers from "./Followers/Followers";
 import Following from "./Following/Following";
+
 import HomeNav from "./HomeNav/HomeNav";
 import Profile from "./Profile/Profile";
 import Footer from "./Footer/Footer";

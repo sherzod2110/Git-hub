@@ -24,3 +24,8 @@
   border: 1px solid #363b42;
   color: #c9d1d9;
 }
+
+.persons {
+  filter: invert(56%) sepia(9%) saturate(361%) hue-rotate(171deg)
+    brightness(102%) contrast(89%);
+}

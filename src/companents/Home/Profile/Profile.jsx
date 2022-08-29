@@ -4,6 +4,8 @@ import { context } from "../../../context";
 import React, { useContext, useState } from "react";
 import { NavLink } from "react-router-dom";
 
+import person from "../../../assets/img/person.png";
+
 // IMPORT CSS
 import "./Profile.css";
 
@@ -42,19 +44,20 @@ const Profile = () => {
           {follow ? "Unfollow" : "Follow"}
         </button>
         <p className="text-dark fw-normal m-0 mb-2">{userInfo.bio}</p>
-        <div className="">
+        <div className="d-flex align-items-center">
+          <img className="persons" src={person} alt="" width={25} height={25} />
           <NavLink
             className="followers-link text-decoration-none follo"
             to="/followers"
           >
-            {userInfo.followers} Followers
+            <span className="text-light">{userInfo.followers}</span> Followers
           </NavLink>
           {` · `}
           <NavLink
-            className="followers-link text-decoration-none follo"
+            className="followers-link text-decoration-none follo ms-2"
             to="/following"
           >
-            {userInfo.following} Follwing
+            <span className="text-light">{userInfo.following}</span> Follwing
           </NavLink>
         </div>
       </div>

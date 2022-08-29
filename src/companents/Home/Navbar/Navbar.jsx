@@ -14,7 +14,7 @@ import Input from "../Input/Input";
 // FUNCTION NAVBAR
 export default function Navbar() {
   return (
-    <> 
+    <>
       <div className="bg-2">
         <div className="container-fluid">
           <div className="d-flex justify-content-between">
@@ -78,8 +78,8 @@ export default function Navbar() {
                       <span className="dropdown-caret ms-1"></span>
                     </button>
                     <div
-                      className="bg-dark offcanvas offcanvas-end"
-                      style={{ width: "250px" }}
+                      className="bg-dark offcanvas offcanvas-end with"
+                      style={{ width: "250px", height: "600px" }}
                       tabindex="-1"
                       id="offcanvasNavbar"
                       aria-labelledby="offcanvasNavbarLabel"
@@ -98,20 +98,15 @@ export default function Navbar() {
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div className="offcanvas-body">
+                      <div className="offcanvas-body pt-0">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                           <ul className="m-0 list-unstyled">
-                            <li className="ps-5 mb-2">
-                              <img
-                                className="rounded-pill"
-                                src={my}
-                                alt=""
-                                width={60}
-                                height={60}
-                              />
+                            <li className="mb-2">
+                              <img className="img-my" src={my} alt="" />
                             </li>
-                            <li className="sign-out">Signed in as</li>
-                            <li className="sign-out boder-w">Sherzod</li>
+                            <li className="sign-out boder-w text-light text-center">
+                              Sherzod
+                            </li>
                             <li className="sign-out">Your Profile</li>
                             <li className="sign-out">Your Repositories</li>
                             <li className="sign-out">Your Codespaces</li>
@@ -123,7 +118,7 @@ export default function Navbar() {
                             <li className="sign-out">Settings</li>
                           </ul>
                           <Link
-                            className="sign-out text-decoration-none "
+                            className="sign-out bg-primary text-decoration-none text-white"
                             to="/"
                           >
                             Log Out
