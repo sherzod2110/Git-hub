@@ -1,0 +1,35 @@
+.nav-search {
+  width: 250px;
+  padding-left: 10px;
+  background: #0d1117;
+  border: 2px solid #30363d;
+  outline: none;
+  border-radius: 6px;
+  color: #c2c3c5;
+  transition: all 0.2s ease;
+}
+
+.nav-search:focus {
+  width: 350px;
+}
+
+.nav-search::placeholder {
+  color: #c2c3c5;
+}
+
+.search-btn {
+  padding: 5px;
+}
+
+.bor {
+  height: 22px;
+  padding: 0 6px 0 6px;
+  border-radius: 5px;
+  border: 2px solid #44484c;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  color: #979a9c;
+  margin: 0;
+  font-size: 11px;
+}

@@ -1,0 +1,48 @@
+.home-nav {
+  top: 0;
+  z-index: 5;
+}
+
+.home-list {
+  border-bottom: 1.5px solid;
+}
+
+.list-item2 {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 5px 10px 0 10px;
+}
+
+.list-item2:hover {
+  background-color: rgba(144, 144, 144, 0.117);
+}
+
+.book-img {
+  width: 25px;
+  height: 25px;
+  filter: invert(61%) sepia(11%) saturate(317%) hue-rotate(171deg)
+    brightness(93%) contrast(90%);
+}
+
+.www {
+  border-bottom: 3px solid #ed7c62;
+  padding-bottom: 12px;
+}
+
+.ww {
+  padding-bottom: 12px;
+}
+
+.item-link {
+  color: #c9d1d9;
+}
+.item-link:hover {
+  color: #c9d1d9;
+}
+
+.book-img-2 {
+  width: 24px;
+  height: 22px;
+  filter: invert(61%) sepia(11%) saturate(317%) hue-rotate(171deg)
+    brightness(93%) contrast(90%);
+}
